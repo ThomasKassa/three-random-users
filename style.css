@@ -1,0 +1,71 @@
+h1{
+    color: teal;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+h4{
+    color:white;
+    font-family: sans-serif;
+}
+
+h3{
+    color: teal;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.pageContainer{
+    background-color: linen;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.indexContainer{
+    height: 7rem;
+    width: 100vw;
+    display: flex;
+}
+
+.userContainer{
+    height: 21rem;
+    width: 100vw;
+    display: flex;
+}
+
+.userBox{
+    background-color: teal;
+    height: 250px ;
+    width: 350px ;
+    border: black solid 1px;
+    border-radius: 15px;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+    
+}
+
+.indexButton{
+    
+    height: 50px ;
+    width: 40px ;
+    margin-inline-start: 16rem;
+    margin-inline-end: 14rem;
+    margin-top: 3rem;
+}
+
+.userName{
+    text-align: center;
+}
+
+.userEmail{
+    text-align: center;
+}
+
+.avatar{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
